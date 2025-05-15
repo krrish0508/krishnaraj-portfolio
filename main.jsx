@@ -1,11 +1,10 @@
-// main.jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import Portfolio from './Portfolio.jsx';
-import './index.css'; // assuming you're using Tailwind or custom CSS
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import Portfolio from "./Portfolio.jsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter basename="/krishnaraj-portfolio">
       <Portfolio />
