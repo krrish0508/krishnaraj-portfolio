@@ -1,0 +1,1 @@
+document.getElementById("root").innerHTML = `<h1 style='text-align:center;'>Krishnaraj Murugan</h1><p style='text-align:center;'>This is a placeholder for the full React app. Deployment steps will include bundling React components.</p>`;
